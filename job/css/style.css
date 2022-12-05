@@ -1075,3 +1075,18 @@ main > section:nth-child(even) {
 .list li {
   margin-bottom: 15px;
 }
+
+#frm {
+  border: solid gray 1px;
+  width: 25%;
+  border-radius: 2px;
+  margin: 120px auto;
+  background: white;
+  padding: 50px;
+}
+#btnn {
+  color: #fff;
+  background: #337ab7;
+  padding: 7px;
+  margin-left: 70%;
+}
