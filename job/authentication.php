@@ -15,7 +15,8 @@
         $count = mysqli_num_rows($result);  
           
         if($count == 1){  
-            echo "<h1><center> Login successful </center></h1>";  
+            header("Location: adminHome.php");
+           // echo "<h1><center> Login successful </center></h1>";  
         }  
         else{  
             echo "<h1> Login failed. Invalid mobile or password.</h1>";  
